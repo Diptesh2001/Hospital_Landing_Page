@@ -1,0 +1,177 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to AG Hospital</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/pattern.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+
+        <div class="header" id="head-sec">
+            <div class="header-left">
+                <h1 class="logo">+</h1>
+                <h1 class="title">AG Healthcare</h1>
+            </div>
+
+            <div class="header-right">
+
+                <div class="ct_bt">
+                    <a href="#">Contact Us</a>
+                </div>
+            </div>
+            
+            
+        </div>
+
+        <div class="navbar" id="nav-sec">
+            <nav>
+                <ul class="nav_links">
+                    <li class="nav_item"><a href="#sign-sec">Sign Up</a></li>
+                    <li class="nav_item"><a href="#about-sec">About</a></li>
+                    <li class="nav_item"><a href="#service-sec">Services</a></li>
+                    <li class="nav_item"><a href="#blog-sec">Blog</a></li>
+                    <li class="nav_item"><a href="#gallery-sec">Gallery</a></li>
+                    <li class="nav_item"><a href="#footer-sec">More</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav> 
+            
+     
+        </div>
+
+        <div class="dummy">
+            <!-- dummy class positioned behind header and nav -->
+            <!-- always keeps the remaining divs below the navbar -->
+        </div>
+
+        <div class="signup" id="sign-sec">
+
+            <span>SELF REGISTRATION</span>
+            
+            <form class="signup-form" action="index.php" method="post" id="form1">
+                <input type="text" name="fname" id="fname" placeholder="First Name">
+                <input type="text" name="lname" id="lname" placeholder="Last Name">
+                <input type="text" name="email" id="email" placeholder="Email Address">
+                <input type="text" name="phone" id="phone" placeholder="Contact Number">
+                <input type="text" name="age" id="age" placeholder="Age">
+                <input type="text" name="blood" id="blood" placeholder="Blood Group">
+                <input type="text" name="city" id="city" placeholder="City/Town/Community">
+                <input type="text" name="state" id="state" placeholder="State">           
+                
+                <!-- dummy class to bring the buttons to the next line -->
+                <div class="break"></div>
+                
+                <div class="form_btn">
+                    <button class="sub_btn" type='submit' form="form1" value="submit">Submit</button> 
+                    <button class="reset_btn">Reset</button>    
+                </div>
+            </form>
+
+            
+
+        </div>
+
+        <div class="about" id="about-sec">
+            <div class="abt" id="abt1">
+                <h1>Where Healthcare Meets Hospitality</h1>
+                <h3>
+                    Right from the way we have designed our patient rooms to the way we serve you, we have left no stone unturned, ensuring that both, your medical and personal needs are placed above everything else.
+                </h3>
+                <a href="#" class="learn_btn">Learn More</a>
+            </div>
+
+            <div class="abt" id="abt2">
+                <h1>Lorem ipsum dolor sit amet.</h1>
+                <h3>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia a voluptatum id qui labore, architecto deleniti quibusdam sed explicabo rem reprehenderit suscipit, accusantium non minus, ipsum ab optio fugit quae.
+                </h3>
+                <a href="#" class="learn_btn">Learn More</a>
+            </div>
+
+            <div class="abt" id="abt3">
+                <h1>Lorem ipsum dolor sit amet consect</h1>
+                <h3>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo esse et consequatur nihil mollitia illo, labore ab. Commodi id eligendi, excepturi laudantium quod assumenda, delectus totam autem facilis quos reiciendis deserunt 
+                </h3>
+                <a href="#" class="learn_btn">Learn More</a>
+            </div>
+            
+        </div>
+
+        <div class="services" id="service-sec">
+
+        </div>
+
+        <div class="blog" id="blog-sec">
+
+        </div>
+
+        <div class="gallery" id="gallery-sec">
+
+        </div>
+        
+    </div>
+
+    <div class="footer" id="footer-sec">
+        
+
+        <div class="footer-left">
+            <h2 class="foo-title"><a href="#" class="foo-logo">+</a>AG Healthcare</h2>
+            
+            <h3>Find us on:</h3>
+
+            <ul class="socials">
+                <li class="social" id="fb">
+                    <a href="">
+                    <img src="icons/facebook.png" alt="facebook">
+                    </a>
+                </li>
+
+                <li class="social" id="insta">
+                    <a href="">
+                        <img src="icons/instagram.png" alt="instagram">
+                    </a>
+                </li>
+
+                <li class="social" id="twit">
+                    <a href="">
+                        <img src="icons/twitter.png" alt="twitter">
+                    </a>
+                </li>
+
+                <li class="social" id="yt">
+                    <a href="">
+                        <img src="icons/youtube.png" alt="youtube">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer-center">
+            <h3>Locations</h3>
+            <ul class="foot-loc">
+                <li class="loc-items">Bangalore</li>
+                <li class="loc-items">Delhi</li>
+                <li class="loc-items">Mumbai</li>
+                <li class="loc-items">Noida</li>
+            </ul>
+        </div>
+        <div class="footer-right">
+            <h3>Icons provided by:</h3>
+            <span>
+                <a href="https://www.flaticon.com/free-icons/twitter" title="twitter icons">Flaticon</a>
+            </span>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
